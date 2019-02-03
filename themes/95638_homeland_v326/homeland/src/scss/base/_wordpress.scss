@@ -1,0 +1,193 @@
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+
+.alignright, 
+.post-link-blog .next {
+  float: right;
+  margin-left: 20px;
+}
+
+.alignleft, 
+.post-link-blog .prev {
+  float: left;
+  margin-right: 20px;
+}
+
+.wp-caption {
+  border: 1px solid #ddd;
+  text-align: center;
+  background: #f3f3f3;
+  padding: 4px;
+  width: auto !important;
+  border-radius: 3px;
+  img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  p.wp-caption-text {
+    font-size: 12px;
+    padding: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+}
+
+.wp-smiley {
+  margin: 0 !important;
+  max-height: 1em;
+}
+
+blockquote {
+  &.left {
+    margin-right: 20px;
+    text-align: right;
+    margin-left: 0;
+    width: 30%;
+    float: left;
+  }
+  &.right {
+    margin-left: 20px;
+    text-align: left;
+    margin-right: 0;
+    width: 30%;
+    float: right;
+  }
+}
+
+.gallery-caption, 
+.bypostauthor {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sticky-post {
+  padding: 0 8px;
+  font-size: 10px;
+  line-height: 20px;
+  background: $site-color;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9;
+}
+
+.resize, 
+.alignright, 
+.alignleft, 
+.aligncenter, 
+.alignnone {
+  margin-bottom: 30px !important;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  margin-bottom: 30px !important;
+  overflow: hidden;
+  margin-left: -15px;
+  margin-right: -15px;
+  @include phone {
+    margin-bottom: 0 !important;
+  }
+}
+
+.gallery-item {
+  margin-bottom: 1px;
+  margin-top: 0 !important;
+  text-align: left !important;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  @include phone {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  img {
+    border: 0 !important;
+  }
+}
+
+.gallery-columns-2 {
+  .gallery-item {
+    width: 50%;
+  }
+}
+
+.gallery-columns-3 {
+  .gallery-item {
+    width: 33.3333333%;
+  }
+}
+
+.gallery-columns-4 {
+  .gallery-item { 
+    width: 25%; 
+  }
+}
+
+.gallery-columns-5 {
+  .gallery-item {
+    width: 20%;
+  }
+}
+
+.gallery-columns-6 {
+  .gallery-item {
+    width: 16.6666666%;
+  }
+}
+
+.gallery-columns-7 {
+  .gallery-item {
+    width: 14.2%;
+  }
+}
+
+.gallery-columns-8 {
+  .gallery-item {
+    width: 12.5%;
+  }
+}
+
+.gallery-columns-9 {
+  .gallery-item {
+    width: 11.1%;
+  }
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  &:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+  }
+}

@@ -1,0 +1,273 @@
+footer {
+  background: #171C26;
+  padding: 40px 0 0;
+  position: relative;
+  .overlay { opacity: 0.8; }
+  .nsu-form,
+  .widget_mc4wp_form_widget {
+    input {
+      &[type='email'], 
+      &[type='text'] { 
+        width: 100%; 
+      }
+    }
+  }
+  .homeland_widget-agents {
+    li {
+      img {
+        border: 2px solid #777;
+      }
+    }
+  }
+}
+
+#footer-id-eight { 
+  padding-bottom: 60px; 
+}
+
+.footer-inside {
+  border-top: 1px solid #2B303B;
+  padding: 40px 0;
+  position: relative;
+}
+
+.footer-layout-two, 
+.footer-layout-three, 
+.footer-layout-four, 
+.footer-layout-six { 
+  background: #2B303B; 
+}
+
+.footer-layout-two,
+.footer-layout-three {
+  .copyright, 
+  .footer-menu {
+    width: 50%;
+    float: left;
+    @include phone {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .copyright {
+    @include phone {
+      margin-top: 20px;
+    }
+  }
+  .footer-menu {
+    @include phone {
+      float: none !important;
+      text-align: center;
+      width: 100%;
+    }
+    ul {
+      @include phone {
+        display: inline-table;
+      }
+    }
+  }
+}
+
+.footer-layout-two {
+  .footer-menu {
+    float: right;
+    width: auto;
+  }
+}
+
+.footer-layout-two, 
+.footer-layout-three,
+.footer-layout-four,
+.footer-layout-five, 
+.footer-layout-six, 
+.footer-layout-eight {
+  a#toTop {
+    position: absolute;
+    right: auto;
+    left: 50%;
+    top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    @include phone {
+      left: 45%;
+    }
+  }
+}
+
+.footer-layout-three {
+  .copyright {
+    width: auto;
+    float: right;
+    @include phone {
+      float: none !important;
+    }
+  }
+  .footer-menu {
+    float: left;
+  }
+}
+
+.footer-layout-four {
+  .footer-menu, 
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-menu {
+    margin-bottom: 20px;
+    ul {
+      display: inline-table;
+      text-align: center;
+    }
+  }
+  .copyright {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+}
+
+.footer-layout-five {
+  padding-bottom: 200px;
+  background: url('../img/footer-bg.png') repeat-x bottom;
+  .copyright {
+    width: 50%;
+    float: left;
+    @include tablet-portrait {
+      width: 100%;
+      float: none;
+      text-align: center;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  .footer-menu {
+    @include tablet-portrait {
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    ul {
+      @include tablet-portrait {
+        display: inline-table;
+      }
+    }
+  }
+  a#toTop {
+    @include tablet-portrait {
+      left: 48%;
+    }
+  }
+}
+
+.footer-layout-six, 
+.footer-layout-eight {
+  .social {
+    @include phone {
+      width: 100%;
+      text-align: center;
+    }
+    ul {
+      display: inline-table;
+    }
+    li {
+      border: 0;
+      &:first-child {
+        border: 0;
+      }
+      a {
+        &:link,
+        &:visited { padding: 0; }
+        &:hover { 
+          background: none;
+          color: #88C354;
+        }
+      }
+    }
+  }
+  .copyright {
+    width: 60%;
+    display: inline-block;
+    @include phone {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.footer-menu, 
+.footer-layout-three .copyright, 
+.footer-layout-six .social, 
+.footer-layout-five .footer-menu, 
+.footer-layout-eight .social {
+  float: right;
+}
+
+.footer-layout-seven {
+  .copyright {
+    text-align: center;
+    width: 100%;
+  }
+  .inside, .footer-inside {
+    position: inherit;
+  }
+  #toTop {
+    position: fixed;
+    top: inherit;
+    bottom: 20px;
+    right: 20px;
+    padding: 6px 14px;
+    border-radius: 50%;
+  }
+}
+
+.footer-layout-eight {
+  .footer-inside {
+    padding-right: 40px;
+    padding-left: 40px;
+    background: #2B303B;
+  }
+}
+
+.footer-menu {
+  li {
+    float: left;
+    margin-left: 15px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.copyright {
+  width: 80%;
+  display: block;
+}
+
+a {
+  &#toTop {
+    position: absolute;
+    top: 34px;
+    right: 0;
+    background: $site-color;
+    color: $white;
+    display: none;
+    padding: 6px 15px;
+    z-index: 5;
+    border-radius: 2px;
+  }
+  &:hover#toTop {
+    background-color: $hover;
+  }
+}
+
+.nsu-submit, 
+.mc4wp-form-fields input[type='submit'], 
+.homepage-call-to-action a {
+  &:hover {
+    background-color: $hover;
+  }
+}

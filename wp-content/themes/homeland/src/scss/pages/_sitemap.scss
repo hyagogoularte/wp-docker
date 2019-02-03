@@ -1,0 +1,32 @@
+.sitemap {
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  a {
+    color: #777;
+    font-size: 14px;
+    &:hover {
+      color: $site-color;
+    }
+  }
+  ul {
+    list-style-position: outside;
+    margin: 0 0 20px 15px;
+    padding: 0;
+  }
+  ol {
+    list-style-position: outside;
+    margin: 0 0 20px 15px;
+    padding: 0;
+    margin-left: 20px;
+    *margin-left: 24px;
+    /* targeted IE 6, 7 fix */
+  }
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: disc;
+    text-indent: 0;
+  }
+}

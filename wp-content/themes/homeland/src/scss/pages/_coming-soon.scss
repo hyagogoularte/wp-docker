@@ -1,0 +1,89 @@
+.coming-soon-page, 
+.login-page {
+  background: $white !important;
+}
+
+.coming-soon {
+  font-family: $font;
+  color: #384042;
+  h2 {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    border-top: 1px solid #DDD;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+    line-height: 40px;
+    span {
+      position: relative;
+      top: -22px;
+      background: $white;
+      padding: 0 20px;
+      display: inline-block;
+    }
+  }
+  h3 {
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  h5 {
+    font-size: 12px;
+    font-weight: 300;
+    color: #777;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    float: none;
+    width: 100%;
+  }
+  .social {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    ul {
+      display: inline-table;
+      li {
+        border-top: 1px solid #E1E1E1;
+        border-bottom: 1px solid #E1E1E1;
+      }
+    }
+  }
+}
+
+.countdown-section {
+  text-align: center;
+  width: 25%;
+  display: block;
+  float: left;
+  font-size: 12px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  padding-right: 15px;
+  @include phone-portrait {
+    width: 100%;
+  }
+}
+
+.countdown-amount {
+  color: $site-color;
+  font-size: 60px;
+  font-weight: 700;
+  display: block;
+  padding: 60px 0 50px;
+  background: #f8f8f8;
+}
+
+.countdown-period {
+  background: #f8f8f8;
+  display: block;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
+}

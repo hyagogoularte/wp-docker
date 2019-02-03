@@ -1,0 +1,352 @@
+// Grid Hover
+.grid {
+  list-style: none;
+  li {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+  }
+  figure {
+    position: relative;
+    img {
+      max-width: 100%;
+      display: block;
+      position: relative;
+    }
+  }
+  figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    background: $black;
+    background: rgba( 0, 0, 0, 0.3 );
+    color: #ed4e6e;
+    text-align: center;
+    h3 {
+      margin: 0;
+      padding: 0;
+      color: $white;
+    }
+    span:before {
+      content: 'by ';
+    }
+    a {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      display: block;
+      background: $black;
+      background: rgba( 0, 0, 0, 0.3 );
+      color: $white !important;
+      position: relative;
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+    }
+  }
+}
+
+.cs-style-3 figure {
+  overflow: hidden;
+  img, h4, 
+  .property-desc-slide {
+    transition: transform 0.4s;
+  }
+}
+
+.no-touch .cs-style-3 figure:hover .property-desc-slide, 
+.cs-style-3 figure.cs-hover .property-desc-slide {
+  transform: translateY(100px);
+}
+
+.no-touch .cs-style-3 figure:hover h4 {
+  transform: translateX(-300px);
+}
+
+.cs-style-3 {
+  figure.cs-hover h4 {
+    transform: translateX(-300px);
+  }
+  figcaption {
+    height: 100%;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+  }
+}
+
+.no-touch .cs-style-3 figure:hover, 
+.cs-style-3 figure.cs-hover {
+  figcaption {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: transform 0.4s, opacity 0.1s;
+  }
+}
+
+
+// Tipsy
+.tipsy {
+  padding: 5px;
+  font-size: 11px;
+  opacity: 0.8;
+  filter: alpha(opacity = 80);
+  background-repeat: no-repeat;
+  background-image: url('../js/tipsy/tipsy.gif');
+}
+
+.tipsy-inner {
+  padding: 0 6px;
+  background-color: $black;
+  color: $white;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.tipsy-north {
+  background-position: top center;
+}
+
+.tipsy-south {
+  background-position: bottom center;
+}
+
+.tipsy-east {
+  background-position: right center;
+}
+
+.tipsy-west {
+  background-position: left center;
+}
+
+.hi-icon-wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2em 0 3em;
+}
+
+.hi-icon {
+  display: inline-block;
+  font-size: 0px;
+  cursor: pointer;
+  margin: 0 30px 0 30px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: $site-color;
+  border: 3px solid $site-color;
+  box-shadow: 0 0 0 6px #F2F2F2;
+  border-radius: 50%;
+  img {
+    margin-top: 10px;
+  }
+  &:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    box-sizing: content-box;
+    border-radius: 50%;
+  }
+  &:before {
+    speak: none;
+    font-size: 40px;
+    line-height: 70px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.hi-icon-effect-1 {
+  .hi-icon {
+    background: $white;
+    transition: background 0.2s, color 0.2s;
+    &:after {
+      top: -2px;
+      left: -2px;
+      padding: 2px;
+      opacity: 0;
+      transform: scale(0.8);
+      transition: transform 0.2s, opacity 0.2s;
+      box-shadow: 0 0 0 16px #F2F2F2;
+    }
+  }
+}
+
+.no-touch .hi-icon-effect-1a .hi-icon:hover {
+  background: rgba(255, 255, 255, 1);
+  color: $site-color;
+  &:after {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.sb-search-submit, .sb-icon-search-close {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+// Superfish Dropdown
+.sf-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  > li {
+    float: left;
+    margin-left: 1px;
+  }
+  ul {
+    position: absolute;
+    top: -999em;
+    width: 190px;
+    li {
+      width: auto;
+      display: block;
+    }
+  }
+  li {
+    position: relative;
+    &:hover {
+      visibility: inherit;
+    }
+  }
+  a {
+    display: block;
+    position: relative;
+  }
+  li {
+    &:hover ul {
+      z-index: 9999;
+      width: 190px;
+      padding: 0;
+    }
+    &.sfHover {
+      ul {
+        z-index: 9999;
+        width: 190px;
+        padding: 0;
+      }
+      a {
+        color: $white !important;
+        background-color: $site-color;
+        &:after {
+          color: $white !important;
+          background-color: $site-color;
+        }
+      }
+      ul {
+        a {
+          &:link, &:visited {
+            border: 0 !important;
+            font-size: 12px;
+            font-weight: normal;
+          }
+        }
+        li a:hover {
+          background: $white !important;
+          color: $site-color !important;
+        }
+      }
+    }
+    li:hover ul {
+      left: 190px;
+      top: 0 !important;
+    }
+  }
+}
+
+ul.sf-menu li li.sfHover ul {
+  left: 190px;
+  top: 0 !important;
+}
+
+.sf-menu li li ul {
+  position: absolute;
+  z-index: 99999;
+}
+
+.sfHover ul li.sfHover a.sf-with-ul {
+  background: $site-color !important;
+  color: $white !important;
+  &:after {
+    color: #fef2f2 !important;
+  }
+}
+
+.theme-menu .sub-menu {
+  display: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  li {
+    border-bottom: 1px solid #e1e1e1;
+    a {
+      &:link, 
+      &:visited {
+        background: #F2F2F2 !important;
+        color: #777 !important;
+        padding: 8px 30px !important;
+      }
+    }
+  }
+}
+
+.sf-menu {
+  ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+    ul {
+      top: 0;
+      left: 100%;
+    }
+  }
+  a {
+    &:link,
+    &:visited {
+      text-decoration: none;
+      color: #797979;
+    }
+  }
+  li li {
+    margin: 0;
+    width: 100%;
+    &:last-child {
+      border-bottom: 0;
+    }
+    &:hover, &.sfHover {
+      outline: 0;
+    }
+  }
+}
+
+/* Demo Skin */
+
+.sf-sub-indicator {
+  display: none;
+}

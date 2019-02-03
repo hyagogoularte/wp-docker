@@ -1,0 +1,28 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/reset';
+@import 'base/global';
+@import 'base/grid';
+@import 'base/misc';
+@import 'base/mobile';
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/widgets';
+@import 'components/plugins';
+
+@import 'pages/home';
+@import 'pages/properties';
+@import 'pages/services';
+@import 'pages/agents';
+@import 'pages/advance-search';
+@import 'pages/testimonials';
+@import 'pages/blog';
+@import 'pages/contact';
+@import 'pages/portfolio';
+@import 'pages/sitemap';
+@import 'pages/not-found';
+@import 'pages/coming-soon';
+
+@import 'base/wordpress';
+@import 'base/jquery';

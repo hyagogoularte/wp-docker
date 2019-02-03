@@ -1,0 +1,290 @@
+.contact-info {
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  label {
+    margin-right: 20px;
+    color: $site-color;
+    i {
+      color: #AAA;
+      font-size: 13px;
+      margin-right: 10px;
+    }
+    a {
+      &:link,
+      &:visited {
+        color: $site-color;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &:before {
+      width: 1.8em;
+      color: #AAA;
+      position: relative;
+      top: 0;
+      padding-right: 10px;
+    }
+  }
+  p { font-size: 14px; }
+  .phone-number, 
+  .email-address, 
+  .contact-fax {
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
+
+.contact-info, 
+.contact-info-alt, 
+.contact-alternate-main {
+  label {
+    span {
+      color: #777;
+      font-weight: 700;
+    }
+    &:before {
+      font-family: $fontawesome;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+}
+
+.wpcf7 ul li {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.contact-form p, 
+.sframe {
+  margin-bottom: 0 !important;
+}
+
+.contact-form,
+#commentform {
+  input {
+    &[type='text'], 
+    &[type='email'] {
+      border: 1px solid #E1E1E1;
+      padding: 12px 15px;
+      font-size: 13px;
+      font-weight: 300;
+      color: #777;
+      width: 100%;
+    }
+  }
+  textarea {
+    border: 1px solid #E1E1E1;
+    padding: 12px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #777;
+    width: 100%;
+  }
+}
+
+#dsidx.dsidx-details .dsidx-contact-form table {
+  input.dsidx-text, 
+  textarea {
+    border: 1px solid #E1E1E1;
+    padding: 12px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #777;
+    width: 100%;
+  }
+}
+
+.wpcf7 {
+  input {
+    &[type='text'], 
+    &[type='email'], 
+    &[type='tel'], 
+    &[type='url'], 
+    &[type='number'], 
+    &[type='date'] {
+      border: 1px solid #E1E1E1;
+      padding: 12px 15px;
+      font-size: 13px;
+      font-weight: 300;
+      color: #777;
+      width: 100%;
+    }
+  }
+  textarea {
+    border: 1px solid #E1E1E1;
+    padding: 12px 15px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #777;
+    width: 100%;
+  }
+}
+
+.wpcf7-not-valid-tip {
+  display: none !important;
+}
+
+.wpcf7-not-valid {
+  border: 1px solid #FF0000 !important;
+}
+
+div.wpcf7-response-output {
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wpcf7-mail-sent-ok {
+  background: #398F14;
+  color: $white;
+}
+
+.wpcf7-validation-errors {
+  background: $red;
+  border: 2px solid $red !important;
+  color: $white;
+}
+
+.contact-info-alt {
+  color: $white;
+  font-size: 14px;
+  h2 {
+    color: $white;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    i {
+      margin-right: 10px;
+    }
+    a {
+      &:link, &:visited {
+        color: $site-color;
+      }
+    }
+  }
+}
+
+.contact-info-alt, 
+.contact-alternate-main {
+  label {
+    a {
+      &:hover { 
+        text-decoration: underline; 
+      }
+    }
+    &:before {
+      width: 1.8em;
+      float: left;
+      color: #AAA;
+      position: relative;
+      top: 0;
+    }
+  }
+}
+
+.contact-alt-background {
+  padding: 60px 0;
+  margin-bottom: 50px;
+  position: relative;
+  background: #171c26;
+  .inside {
+    position: relative;
+    z-index: 3;
+  }
+  #map { margin-bottom: 0; }
+}
+
+footer, 
+.homepage-call-to-action {
+  .inside {
+    position: relative;
+    z-index: 3;
+  }
+}
+
+.contact-alternate-main {
+  label {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0;
+    padding-left: 1.8em;
+    text-indent: -1.8em;
+    font-size: 14px;
+    a {
+      &:link, &:visited {
+        color: $site-color;
+      }
+    }
+    i {
+      color: #AAA;
+      font-size: 13px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.contact-info-alt, 
+.contact-info {
+  label {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0;
+    padding-left: 1.8em;
+    text-indent: -1.8em;
+    font-size: 14px;
+  }
+}
+
+.contact-info-alt label {
+  margin-bottom: 10px;
+  &:before, 
+  span {
+    color: $white;
+  }
+}
+
+.contact-address:before {
+  content: "\f3c5";
+  font-weight: 600;
+}
+
+.working-hours:before {
+  content: "\f017";
+}
+
+.phone-number:before {
+  content: "\f095";
+  font-weight: 600;
+}
+
+.email-address:before {
+  content: "\f0e0";
+}
+
+.contact-fax:before {
+  content: "\f1ac";
+  font-weight: 600;
+}
+
+.contact-alternate-two {
+  .contact-form {
+    li { margin-right: 0; }
+  }
+}
+
+.agent-social {
+  li {
+    &:last-child {
+       margin-right: 0;
+    }
+  }
+}

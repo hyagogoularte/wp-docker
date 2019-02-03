@@ -1,0 +1,105 @@
+.portfolio-image {
+  position: relative;
+  h4 {
+    position: absolute;
+    color: $white;
+    bottom: 0;
+    left: 0;
+    background: #445064;
+    padding: 4px 12px;
+  }
+  .pimage {
+    @include tablet-portrait {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.portfolio-category {
+  @include phone {
+    margin-bottom: 30px;
+    display: block;
+  }
+}
+
+.portfolio-list-desc {
+  margin-bottom: 40px;
+  position: relative;
+  h4 { margin-bottom: 4px; }
+}
+
+a {
+  &.live-demo {
+    &:link, 
+    &:visited {
+      display: block;
+      padding: 8px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      color: $white;
+      background: $site-color;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    &:hover {
+      background: $hover;
+    }
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+.single-homeland_portfolio {
+  .portfolio-image {
+    margin-bottom: 0;
+  }
+}
+
+.portfolio-cols {
+  h4, p {
+    text-align: center !important;
+  }
+}
+
+.no-image-fallback {
+  width: 100%;
+  height: 230px;
+  background: #333;
+  display: block;
+  span {
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    color: $white;
+    position: relative;
+    top: 45%;
+  }
+}
+
+.no-image-slider {
+  height: 500px;
+}
+
+.portfolio-desc h4 {
+  margin-bottom: 20px !important;
+}
+
+.portfolio-grid {
+  .post-col-4 {
+    @include phone {
+      width: 100%;
+    }
+  }
+}
+
+.portfolio-sidebar {
+  .post-col-4 {
+    @include tablet-portrait {
+      width: 50%;
+    }
+     @include phone {
+      width: 100%;
+    }
+  }
+}

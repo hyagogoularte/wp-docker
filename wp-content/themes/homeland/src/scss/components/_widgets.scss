@@ -1,0 +1,864 @@
+.sidebar {
+  padding: 20px;
+  background: #F8F8F8;
+  .widget {
+    h5 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #384042;
+      border-bottom: 1px solid #E1E1E1;
+      padding-bottom: 15px;
+      position: relative;
+      &:after {
+        content: "\f111";
+        font-size: 12px;
+        font-family: $fontawesome;
+        font-style: normal;
+        font-weight: 600;
+        text-decoration: inherit;
+        position: absolute;
+        bottom: -12px;
+        left: 0;
+        color: #E1E1E1;
+      }
+    }
+  }
+  .dsidx-resp-search-box {
+    background: $white;
+    padding: 6px 12px;
+    border: 1px solid #E1E1E1;
+    position: relative;
+  }
+  #searchform {
+    input {
+      &[type='text'] {
+        padding: 6px;
+        color: #AAA;
+        padding-right: 30px;
+      }
+    }
+  }
+  .side-video iframe { margin-bottom: 0 !important; 
+  }
+  .pp-desc {
+    a {
+      &:link, 
+      &:visited {
+        font-size: 14px;
+        font-weight: 500;
+        color: #777;
+      }
+    }
+  }
+  .tagcloud {
+    a {
+      background: #E5E5E5;
+      padding: 2px 8px;
+      color: #777;
+      font-size: 11px;
+      margin-bottom: 3px;
+      display: inline-block;
+      &:hover {
+        background: #777;
+        color: $white;
+      }
+    }
+  }
+  .widget:last-child {
+    margin-bottom: 0;
+  }
+  input.dsidx-resp-submit, 
+  .dsidx-widget-guided-search input.submit {
+    font-size: 14px !important;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .homeland_widget-get-in-touch {
+    .social {
+      li { margin-left: 8px; }
+      a {
+        &:link,
+        &:visited {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+.featured-flexslider ul li, 
+.agent-property-desc h4 {
+  margin-bottom: 0;
+}
+
+.wpcf7-submit {
+  font-size: 16px !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sidebar {
+  .homeland_widget-property-advance-search {
+    input {
+      &[type='submit'] {
+        @extend .wpcf7-submit;
+      }
+    }
+  }
+}
+
+footer {
+  .widget {
+    h5 {
+      font-size: 20px;
+      color: #dcdee2;
+      text-transform: uppercase;
+      padding-top: 8px;
+      margin-bottom: 30px;
+    }
+  }
+  .nsu_widget, 
+  .widget_mc4wp_form_widget {
+    padding: 20px;
+    background: #2b303b;
+    @include tablet-portrait {
+      padding: 10px;
+    }
+    @include phone {
+      padding: 30px;
+    }
+    h5 {
+      margin-bottom: 20px;
+      padding-top: 0;
+      color: $white;
+    }
+  }
+  .pp-desc { width: 63%; }
+  #searchform {
+    background: #2B303B;
+    padding: 6px 12px;
+    position: relative;
+    input {
+      &[type='text'] {
+        background: none;
+        color: #77797e;
+        border: 0;
+        font-size: 14px;
+        padding-right: 20px;
+      }
+    }
+  }
+  .homeland_widget-property-advance-search input[type='text'] {
+    background: $white !important;
+    padding: 10px 12px;
+  }
+  .sub-menu {
+    margin-left: 17px;
+    li {
+      a {
+        &:link, 
+        &:visited {
+          background: none !important;
+        }
+      }
+    }
+  }
+}
+
+.widget {
+  li {
+    margin-bottom: 10px;
+    a {
+      &:link, 
+      &:visited {
+        color: #7c7e83;
+      }
+      &:hover {
+        color: #8CC55A;
+      }
+    }
+    &:hover:before {
+      color: #8CC55A;
+    }
+  }
+}
+
+.copyright a, 
+.agent-block h4 a:hover, 
+.agent-desc h4 a:hover, 
+.agent-social ul li a:hover, 
+.sidebar .pp-desc a:hover, 
+.services-page-desc h5 a:hover, 
+.agent-about-list .agent-image h4 a:hover, 
+.blog-list-desc h4 a:hover, 
+.blog-action ul li a:hover, 
+.comment-details h5 a:hover, 
+.blog-timeline-content h4 a:hover, 
+.footer-menu ul li a:hover, 
+.agent-grid-sidebar .agent-list h4 a:hover {
+  color: #8CC55A;
+}
+
+.homeland_widget-contact-info {
+  ul {
+    background-image: url('../img/world-map.png');
+    background-size: cover;
+  }
+  li {
+    position: relative;
+    padding-left: 30px;
+    i {
+      position: absolute;
+      top: 5px;
+      left: 0;
+      color: #A0A2A5;
+      display: block;
+      text-align: center;
+      width: 20px;
+    }
+  }
+}
+
+.widget_categories {
+  li {
+    &:before {
+      content: "\f114";
+      padding-right: 10px;
+    }
+  }
+}
+
+.widget_archive {
+  li {
+    &:before {
+      content: "\f016";
+      padding-right: 10px;
+    }
+  }
+}
+
+.widget_pages, 
+.widget_meta, 
+.widget_nav_menu, 
+.homeland_widget-property-categories, 
+.homeland_widget-property-status, 
+div.dsidx-results-widget .dsidx-list, 
+.widget_display_forums, 
+.widget_display_views, 
+.homeland_widget-property-amenities, 
+.homeland_widget-property-location, 
+.widget_archive, 
+.widget_categories {
+  li {
+    &:before {
+      content: "\f0da";
+      font-family: $fontawesome;
+      font-style: normal;
+      font-weight: 600;
+      text-decoration: inherit;
+      padding-right: 12px;
+    }
+  }
+}
+
+.homeland_widget-property-location {
+  li {
+    &:before { content: "\f041"; }
+  }
+}
+
+.widget_recent_entries {
+  li {
+    a {
+      font-size: 16px;
+    }
+  }
+}
+
+.pp-desc span, 
+.post-date {
+  font-size: 12px;
+}
+
+.homeland_widget-portfolio {
+  li {
+    margin-right: 6px;
+    margin-bottom: 6px;
+    float: left;
+    img {
+      width: 62px;
+      height: 62px;
+      border-radius: 2px;
+    }
+  }
+}
+
+#wp-calendar {
+  thead tr th {
+    text-align: center;
+    border: 1px solid #CCC;
+    background: #999;
+    color: $white;
+  }
+  tbody tr td {
+    text-align: center;
+    border: 1px solid #CCC;
+  }
+  caption {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    background: #2b303b;
+    color: $white;
+    letter-spacing: 3px;
+  }
+}
+
+#today {
+  background: #666;
+  color: $white;
+}
+
+.homeland_widget-get-in-touch {
+  li {
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    &:last-child {
+      margin-right: 0;
+    }
+    a {
+      &:link, 
+      &:visited {
+        color: $white;
+        padding: 6px 0;
+      }
+    }
+  }
+  .social {
+    li { 
+      border-right: 0; 
+      margin-left: 12px;
+      &:first-child {
+        border-left: 0;
+        margin-left: 0;
+      }
+    }
+    a {
+      &:link,
+      &:visited {
+        width: auto;
+      }
+      &:hover {
+        background: none;
+        color: $site-color;
+      }
+    }
+  }
+}
+
+.comment-form, 
+#homeland-loginform, 
+#homeland-registerform, 
+#homeland-lostpassword {
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.homeland_widget-popular-posts {
+  a {
+    &:link, 
+    &:visited {
+      display: block;
+      font-size: 16px;
+      color: #7c7e83;
+    }
+    &:hover {
+      color: $site-color;
+    }
+  }
+  span {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+  .post-col-5,
+  .post-col-7 {
+    @include tablet-portrait {
+      width: 100%;
+    }
+    @include phone {
+      width: 50%;
+      background: none;
+    }
+  }
+  .post-col-no-rmargin {
+    @include tablet-portrait {
+      padding-left: 0;
+    }
+    @include phone {
+      padding-left: 20px;
+    }
+  }
+  img {
+    @include tablet-portrait {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.widget_recent_entries a {
+  display: block;
+  font-size: 16px;
+}
+
+footer #searchform p, 
+.sidebar .nsu-form label, 
+.nsu-form p label, 
+.page-template-template-contact-alternate .page-title-block-default, 
+.page-template-template-contact-alternate2 .page-title-block-default, 
+.page-template-template-contact .page-title-block-default, 
+.widget_media_gallery .gallery-caption {
+  display: none;
+}
+
+.nsu-form {
+  position: relative;
+}
+
+.sidebar {
+  .nsu_widget, 
+  .widget_mc4wp_form_widget {
+    h5 {
+      padding-top: 0;
+    }
+    input {
+      &[type='email'],
+      &[type='text'],
+      &[type='number'] {
+        border: 1px solid #CCC;
+      }
+    }
+  }
+}
+
+.nsu-form,
+.widget_mc4wp_form_widget {
+  input {
+    &[type='email'], 
+    &[type='text'] {
+      background: $white;
+      padding: 10px 12px;
+      color: #AAA;
+      font-size: 14px;
+      display: block;
+    }
+    &[type='email']::-webkit-input-placeholder, 
+    &[type='text']::-webkit-input-placeholder {
+      color: #525356;
+    }
+    &[type='email']::-moz-placeholder, 
+    &[type='text']::-moz-placeholder {
+      color: #525356;
+    }
+    &[type='email']::-ms-placeholder, 
+    &[type='text']::-ms-placeholder {
+      color: #525356;
+    }
+  }
+}
+
+.nsu-form, 
+.mc4wp-form-fields {
+  p { 
+    margin-bottom: 10px; 
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.nsu-text-before-form, 
+.mc4wp-form-fields label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.nsu-submit, 
+.mc4wp-form-fields input[type='submit'] {
+  background: #8CC55A;
+  color: $white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 0;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.homeland_widget-twitter h5 i {
+  margin-right: 10px;
+  color: #00B9F4;
+}
+
+.homeland_widget-property-advance-search #searchform, 
+.sidebar .dsidx-resp-search-box {
+  overflow: hidden;
+}
+
+.advance-search-widget {
+  .post-col-3,
+  .post-col-2 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px !important;
+  }
+  label {
+    display: inline-block;
+    font-size: 11px;
+    width: 80px;
+  }
+  select {
+    border: 1px solid #CCC;
+    background: $white;
+  }
+  input {
+    &.property-id {
+      border: 1px solid #CCC;
+      color: #777 !important;
+      background: $white;
+    }
+    &[type='submit'] {
+      cursor: pointer;
+      font-size: 12px;
+      background: $site-color;
+      color: $white;
+      width: 100% !important;
+      padding: 10px 0 !important;
+    }
+  }
+}
+
+.dsidx-widget {
+  &.dsidx-search-widget {
+    .dsidx-search-button {
+      input {
+        &[type='submit'] {
+          cursor: pointer;
+          font-size: 12px;
+          background: $site-color;
+          color: $white;
+          width: 100%;
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+}
+
+.sidebar {
+  input.dsidx-resp-submit, 
+  .dsidx-resp-area.dsidx-resp-area-submit {
+    input {
+      &[type='submit'] {
+        cursor: pointer;
+        font-size: 12px;
+        background: $site-color;
+        color: $white;
+        width: 100%;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+.advance-search-widget ul li, 
+.agent-form ul li, 
+.dsidx-widget.dsidx-search-widget .dsidx-search-button {
+  input {
+    &[type='submit'] {
+      &:hover { 
+        background: #79b446; 
+      }
+    }
+  }
+}
+
+.sidebar {
+  input.dsidx-resp-submit:hover, 
+  .dsidx-resp-area.dsidx-resp-area-submit {
+    input {
+      &[type='submit'] {
+        &:hover {
+          background: #79b446;
+        }
+      }
+    }
+  }
+}
+
+#bbp_search_submit {
+  &:hover {
+    background: #79b446;
+  }
+}
+
+.homeland_widget-facebook-like {
+  iframe {
+    margin-bottom: 0 !important;
+    width: 100%;
+  }
+}
+
+.widget ul li .children, 
+.sidebar .sub-menu {
+  margin-left: 17px;
+}
+
+.sidebar .sub-menu li {
+  a {
+    background: none !important;
+  }
+}
+
+.tagcloud {
+  a {
+    background: #2B303B;
+    padding: 4px 10px;
+    display: inline-block;
+    margin-bottom: 2px;
+    &:hover {
+      background: #293243;
+    }
+  }
+}
+
+.homeland_widget-agents {
+  h4 {
+    margin-bottom: 4px;
+    a {
+      font-size: 14px;
+      font-weight: 700;
+      color: #777;
+    }
+  }
+  li {
+    margin-bottom: 20px;
+  }
+}
+
+.property-desc-slide {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 6px 10px;
+  width: 100%;
+  background: $white;
+  background: rgba( 255, 255, 255, 0.8 );
+  h3 {
+    margin-bottom: 2px;
+    color: #4d5455 !important;
+    font-size: 16px;
+  }
+  span {
+    color: $site-color;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+.homeland_widget-featured-properties .flex-direction-nav li {
+  width: auto !important;
+}
+
+#wgmap {
+  width: 100%;
+  height: 200px;
+}
+
+.sliding-bar .widget {
+  h5 {
+    color: $white;
+  }
+}
+
+.sidebar {
+  .wpcf7 input {
+    &[type='text'], 
+    &[type='email'], 
+    &[type='url'], 
+    &[type='tel'], 
+    &[type='number'], 
+    &[type='date'] {
+      padding: 8px 10px;
+    }
+  }
+  .wpcf7-select, 
+  .wpcf7 textarea {
+    padding: 8px 10px;
+  }
+}
+
+.widget_archive, 
+.widget_categories {
+  select { padding: 8px 10px; }
+}
+
+footer {
+  .wpcf7 input {
+    &[type='text'], 
+    &[type='email'], 
+    &[type='url'], 
+    &[type='tel'], 
+    &[type='number'], 
+    &[type='date'] {
+      width: 100%;
+      padding: 8px 10px;
+      border: 0;
+    }
+  }
+  .wpcf7-select, 
+  .wpcf7 textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 0;
+  }
+  .wpcf7-submit {
+    width: 100%;
+    display: block;
+    padding: 10px 12px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .advance-search-widget ul li {
+    select {
+      width: 100%;
+      border: 0;
+      padding: 6px 12px;
+    }
+    input[type='submit'] {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+  .homeland_widget-working-hours {
+    li {
+      border-bottom: 1px solid #666;
+    }
+  }
+}
+
+.sidebar .wpcf7, 
+footer .wpcf7 {
+  p { margin-bottom: 15px; }
+  textarea { height: 100px; }
+}
+
+.widget_search {
+  position: relative;
+  span {
+    position: absolute;
+    top: 4px;
+    right: 12px;
+  }
+}
+
+footer {
+  .widget_search {
+    span {
+      top: 8px;
+    }
+  }
+}
+
+.homeland_widget-portfolio {
+  ul li span a {
+    &:link, 
+    &:visited {
+      font-size: 11px !important;
+      font-weight: 300 !important;
+    }
+  }
+  .image-portfolio {
+    height: 70px;
+  }
+}
+
+.homeland_widget-portfolio .image-portfolio, 
+.homeland_widget-popular-posts .image-blog, 
+.bimage .image-blog {
+  span {
+    font-size: 12px;
+    top: 23%;
+    line-height: 18px;
+  }
+}
+
+.popular-desc {
+  margin-left: 20px;
+}
+
+#recentcomments {
+  li {
+    &.recentcomments {
+      position: relative;
+      padding-left: 24px;
+      &:before {
+        content: "\f4ad";
+        font-family: $fontawesome;
+        font-style: normal;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+    }
+  }
+}
+
+.homeland_widget-testimonials {
+  ul { text-align: center; }
+  li {
+    img {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 10px;
+      border-radius: 50%;
+    }
+    h4 {
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.homeland_widget-working-hours {
+  li {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 6px 0;
+    margin-bottom: 0 !important;
+    color: #666;
+    border-bottom: 1px solid #e1e1e1;
+    span {
+      float: right;
+      color: #777;
+    }
+  }
+}
+
+.no-image {
+  background: $black;
+  color: $white;
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 4em 0;
+}

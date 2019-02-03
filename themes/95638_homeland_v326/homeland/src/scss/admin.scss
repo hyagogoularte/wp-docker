@@ -1,0 +1,69 @@
+ul.mabuc-tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  li {
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-top: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    i {
+      margin-right: 10px;
+    }
+    &.current {
+      color: #222;
+      border-right: 1px solid #CCC;
+      border-left: 1px solid #CCC;
+      border-top: 1px solid #CCC;
+      border-bottom: 1px solid #FFF;
+    }
+  }
+}
+
+.mabuc-tab-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid #CCC;
+  margin-top: -1px;
+  &.current {
+    display: inherit;
+  }
+  ul li {
+    margin-bottom: 10px;
+    label {
+      display: inline-block;
+      width: 180px;
+      background: #EEE;
+      padding: 4px 0;
+      margin-top: -5px;
+    }
+    input[type='text'], 
+    textarea {
+      display: inline-block;
+      width: 600px;
+    }
+    select { width: 200px; }
+  }
+  span.desc {
+    margin-left: 182px;
+    margin-top: 4px;
+    display: block;
+    font-style: italic;
+    font-size: 11px;
+  }
+}
+
+.content-desc {
+  font-size: 12px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+#customize-controls img {
+  width: auto !important;
+}

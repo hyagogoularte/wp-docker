@@ -1,0 +1,1195 @@
+// IDX 
+div.dsidx-results-widget,
+.dsidx-widget-listings,
+.featured-listing p span {
+  font-family: $font !important;
+}
+
+.dsidx-standalone-disclaimer, 
+#dsidx li hr, 
+#dsidx-disclaimer, 
+#dsidx-map-control img, 
+.dsidx-details hr {
+  display: none;
+}
+
+a {
+  &#dsidx-button-contact-agent, 
+  &#dsidx-button-schedule-showing, 
+  &#dsidx-button-share, 
+  &#dsidx-button-print {
+    img { display: none; }
+  }
+}
+
+.dsidx-prop-summary div img {
+  margin-right: 10px;
+  border: 0 !important;
+}
+
+#dsidx-listings {
+  .dsidx-listing .dsidx-media .dsidx-photo {
+    border: 0;
+    background: none;
+  }
+  .dsidx-media .dsidx-photo a:hover {
+    opacity: 0.7;
+  }
+  .dsidx-primary-data {
+    background: #F8F8F8;
+    padding: 10px 0;
+  }
+}
+
+.dsidx-prop-title {
+  background: #F8F8F8;
+  padding: 10px 0;
+}
+
+.dsidx-address a, 
+.dsidx-prop-title a {
+  font-size: 18px;
+  color: #384042;
+  font-weight: 500;
+}
+
+#dsidx-listings .dsidx-price, 
+.price {
+  font-size: 14px;
+  color: $site-color;
+}
+
+#dsidx-listings .dsidx-secondary-data {
+  font-size: 12px;
+  margin-top: 15px;
+  div {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.dsidx-prop-features div {
+  width: 500px;
+}
+
+#dsidx-listings .dsidx-secondary-data, 
+.dsidx-prop-features {
+  div {
+    &:hover {
+      content: "\f14a";
+      font-family: $fontawesome;
+      font-style: normal;
+      font-weight: 600;
+      padding-right: 10px;
+    }
+  }
+}
+
+.dsidx-results {
+  .dsidx-paging-control, 
+  .dsidx-sorting-control {
+    background: #F8F8F8;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+}
+
+#dsidx-map-control {
+  background: #F8F8F8;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.dsidx-results .dsidx-paging-control, 
+.dsidx-prop-title {
+  a {
+    &:hover { 
+      color: $site-color; 
+    }
+  }
+}
+
+.dsidx-results .dsidx-paging-control, 
+#dsidx .dsidx-sorting-control {
+  font-size: 12px;
+}
+
+.dsidx-sorting-control select {
+  border: 1px solid #CCC;
+}
+
+#dsidx {
+  input, 
+  button, 
+  textarea, 
+  select, 
+  optgroup, 
+  option {
+    font-size: 12px;
+  }
+}
+
+#dsidx-listings li.dsidx-listing {
+  margin-bottom: 30px;
+}
+
+#dsidx, 
+.featured-listing h4, 
+div.dsidx-results-widget .dsidx-controls {
+  a {
+    &:hover {
+      text-decoration: none;
+      color: $site-color;
+    }
+  }
+}
+
+#dsidx-map-control a:before {
+  content: "\f041";
+  font-family: $fontawesome;
+  font-style: normal;
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+div.dsidx-results-widget .dsidx-slideshow .dsidx-photo img {
+  border: 0 !important;
+}
+
+.dsidx-search-widget {
+  padding: 20px;
+}
+
+.featured-listing h4 {
+  font-size: 16px;
+  a {
+    color: #384042;
+    font-weight: 500;
+  }
+}
+
+div.dsidx-results-widget {
+  .featured-listing {
+    margin-top: 0 !important;
+  }
+  .dsidx-panel .dsidx-photo {
+    margin-right: 15px !important;
+    img {
+      margin-bottom: 10px;
+    }
+  }
+  .dsidx-expanded li {
+    margin-bottom: 2px;
+  }
+  .dsidx-slideshow {
+    padding: 40px 0 0 0 !important;
+  }
+  .dsidx-controls {
+    text-align: center !important;
+    margin-top: 10px !important;
+  }
+}
+
+.sidebar .dsidx-search-widget {
+  .dsidx-price {
+    width: 38%;
+  }
+  .dsidx-beds {
+    width: 93.5%;
+  }
+}
+
+.dsidx-search-widget .dsidx-baths, 
+.sidebar .dsidx-search-widget .dsidx-improvedsqft, 
+.dsidx-search-widget .dsidx-mlsnumber {
+  width: 93.5%;
+}
+
+.sidebar {
+  .dsidx-search-widget .dsidx-search-button .submit {
+    float: right;
+  }
+  .dsidx-widget.dsidx-search-widget .dsidx-search-button {
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+p.dsidx-error {
+  margin: 0 !important;
+}
+
+.sidebar .dsidx-search-widget {
+  select {
+    border: 1px solid #CCC;
+  }
+  input[type='text'] {
+    border: 1px solid #CCC;
+    width: 106px !important;
+    font-size: 12px;
+  }
+}
+
+.dsidx-prop-features {
+  white-space: normal !important;
+  padding-top: 20px !important;
+  div {
+    overflow: visible !important;
+  }
+}
+
+.dsidx-prop-title {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 20px !important;
+  color: $site-color;
+}
+
+.dsidx-details {
+  #dsidx-primary-data, #dsidx-secondary-data {
+    border: 1px solid #F3F3F3;
+    margin-bottom: 20px;
+  }
+}
+
+.dsidx-supplemental-data {
+  border: 1px solid #F3F3F3;
+  margin-bottom: 20px;
+}
+
+#dsidx-price {
+  background: $site-color;
+  color: $white;
+}
+
+.dsidx-details #dsidx-property-types {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #384042;
+  font-weight: 500 !important;
+}
+
+#dsidx {
+  h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #384042;
+    font-weight: 500 !important;
+    border: 0;
+  }
+  td, th {
+    padding: 5px 10px;
+  }
+}
+
+.dsidx-details .dsidx-contact-form table td.column-one {
+  width: 30%;
+}
+
+#dsidx.dsidx-details .dsidx-contact-form table {
+  margin-top: 0;
+}
+
+.dsidx-contact-form {
+  .dsidx-secondary-row {
+    background: none !important;
+    td {
+      padding: 5px 0 !important;
+      vertical-align: middle !important;
+    }
+  }
+  tr td {
+    padding: 5px 0 !important;
+    vertical-align: middle !important;
+  }
+}
+
+#dsidx.dsidx-details .dsidx-contact-form table {
+  select {
+    width: 100px;
+    border: 1px solid #E1E1E1;
+  }
+  input.dsidx-contact-form-schedule-yesno {
+    margin-right: 10px;
+  }
+}
+
+#dsidx-actions {
+  margin: 0 0 30px 0;
+}
+
+.sidebar .dsidx-search-widget {
+  th, td {
+    padding-left: 0;
+  }
+  select {
+    padding: 4px;
+  }
+}
+
+a {
+  &#dsidx-button-contact-agent,
+  &#dsidx-button-schedule-showing,
+  &#dsidx-button-share,
+  &#dsidx-button-print {
+    &:before {
+      content: "\f086";
+      font-family: $fontawesome;
+      font-style: normal;
+      font-weight: 600;
+      padding-right: 10px;
+    }
+  }
+  &#dsidx-button-schedule-showing {
+    &:before { content: "\f073"; }
+  }
+  &#dsidx-button-share {
+    &:before { content: "\f14d"; }
+  }
+  &#dsidx-button-print {
+    &:before { content: "\f02f"; }
+  }
+  &#dsidx-button-contact-agent {
+    &:hover { background: none; }
+  }
+}
+
+ul.dsidx-list.dsidx-panel li a {
+  display: inline-block !important;
+}
+
+#dsidx-listings {
+  .dsidx-listing {
+    .dsidx-listing-tag.dsidx-tag-pre-foreclosure {
+      text-align: left;
+      padding: 10px 20px;
+      width: 91.5%;
+      margin-bottom: 20px;
+    }
+    .dsidx-media {
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .dsidx-data {
+      padding-left: 340px;
+      margin-left: 0;
+      width: 100%;
+    }
+    .dsidx-primary-data {
+      padding: 10px;
+    }
+  }
+  li.dsidx-listing-container {
+    margin-bottom: 40px;
+  }
+  .dsidx-listing .dsidx-media .dsidx-photo .dsidx-photo-count {
+    background: $black;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+}
+
+/* IDX Search */
+
+.advance-search-block .dsidx-search-widget {
+  padding: 0 !important;
+  background: none !important;
+  border: 0 !important;
+  width: 105% !important;
+  max-width: 105%;
+  table tr {
+    float: left;
+    width: 340px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  th {
+    padding: 0;
+    display: block;
+    width: 340px;
+  }
+  td {
+    padding: 0;
+  }
+  .dsidx-search-widget-propertyTypes {
+    width: 342px !important;
+  }
+}
+
+.dsidx-search-widget {
+  .dsidx-search-widget-propertyTypes, .idx-q-Location-Filter {
+    width: 342px !important;
+  }
+}
+
+.advance-search-block {
+  input.dsidx-price {
+    width: 145px;
+    float: left;
+    margin-right: 30px;
+  }
+  .dsidx-widget.dsidx-search-widget .dsidx-search-button {
+    margin: 0;
+    width: 1080px;
+    input[type='submit'] {
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.advance-search-block-page {
+  .dsidx-widget-search {
+    padding-bottom: 30px;
+  }
+  .dsidx-search-widget .selectBox-dropdown {
+    width: 322px !important;
+  }
+}
+
+.advance-search-block {
+  &.advance-search-block-page {
+    .dsidx-search-widget table tr {
+      width: 325px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    .dsidx-widget.dsidx-search-widget .dsidx-search-button {
+      width: 1020px !important;
+    }
+  }
+  .selectBox {
+    &.dsidx-search-widget-propertyTypes, &.idx-q-Location-Filter {
+      float: left;
+    }
+  }
+  .dsidx-search-widget {
+    #idx-q-PriceMax {
+      float: left;
+    }
+    input {
+      &.dsidx-beds, &.dsidx-baths, &.dsidx-improvedsqft, &.dsidx-mlsnumber {
+        float: left;
+      }
+    }
+    label {
+      width: 7%;
+      padding: 10px 0;
+      clear: none;
+    }
+  }
+}
+
+.advance-search-block-page .dsidx-search-widget label {
+  width: 6%;
+}
+
+.advance-search-block .dsidx-search-widget {
+  input[type="text"], select {
+    margin-bottom: 27px;
+    margin-right: 27px;
+    float: left;
+    width: 263px !important;
+  }
+}
+
+.advance-search-block-page .dsidx-search-widget {
+  input[type="text"], select {
+    width: 260px !important;
+  }
+}
+
+.advance-search-block .dsidx-search-widget input[type="text"] {
+  &.dsidx-price {
+    width: 140px !important;
+  }
+  &.dsidx-improvedsqft, &.dsidx-beds, &.dsidx-baths {
+    width: 125px !important;
+  }
+}
+
+.sidebar .dsidx-search-widget {
+  select {
+    width: 188px !important;
+  }
+  label {
+    width: 25%;
+  }
+  .dsidx-price {
+    float: right;
+  }
+}
+
+/* Updated dsIDXpress version of CSS */
+
+.dsidx-widget-guided-search, .widget_media_gallery .gallery {
+  margin-bottom: 0 !important;
+}
+
+.dsidx-widget-guided-search h5, .dsidx-widget-quick-search h5 {
+  display: none;
+}
+
+.dsidx-resp-vertical {
+  width: 105%;
+  .dsidx-resp-area {
+    float: left !important;
+    width: 242px !important;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    &.dsidx-resp-area-half {
+      float: left !important;
+      width: 242px !important;
+      margin-right: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.dsidx-resp-search-form .dsidx-resp-area:last-child {
+  float: left;
+  display: block;
+  margin-top: 34px;
+}
+
+.dsidx-resp-area.dsidx-resp-area-submit input[type='submit'] {
+  width: 100% !important;
+  text-transform: uppercase;
+}
+
+[class^="idx-"], [class*=" idx-"] {
+  font-family: $font, sans-serif !important;
+  font-weight: normal !important;
+  line-height: inherit !important;
+}
+
+.sidebar .dsidx-resp-area.dsidx-resp-area-half.dsidx-resp-area-right, .dsidx-resp-vertical .dsidx-resp-area.dsidx-resp-area-half.dsidx-resp-area-right {
+  padding-left: 0 !important;
+}
+
+.sidebar .dsidx-resp-area.dsidx-resp-area-half.dsidx-resp-area-left, .dsidx-resp-vertical .dsidx-resp-area.dsidx-resp-area-half.dsidx-resp-area-left {
+  padding-right: 0 !important;
+}
+
+.dsidx-resp-area {
+  input[type="text"], select {
+    margin-bottom: 0 !important;
+  }
+}
+
+/*Horizontal*/
+
+.dsidx-widget-quick-search .dsidx-resp-horizontal {
+  .dsidx-resp-search-form .dsidx-resp-area:last-child {
+    margin-top: 0 !important;
+  }
+  label.dsidx-resp-submit {
+    display: inline-block !important;
+  }
+}
+
+.sidebar {
+  .dsidx-widget-guided-search h5, .dsidx-widget-quick-search h5 {
+    display: block;
+  }
+  .dsidx-resp-area {
+    input[type='text'], select {
+      border: 1px solid #CCC;
+    }
+  }
+  .dsidx-resp-vertical {
+    width: auto !important;
+    .dsidx-resp-area {
+      width: 188px !important;
+      &.dsidx-resp-area-half {
+        width: 188px !important;
+      }
+      margin-right: 0 !important;
+      margin-bottom: 15px !important;
+    }
+  }
+  .dsidx-widget-guided-search {
+    margin-bottom: 30px !important;
+  }
+}
+
+
+// Page Builder
+.aq-template-wrapper {
+  overflow: hidden;
+}
+
+.aq-block-aq_column_block {
+  margin-bottom: 50px;
+  .agent-block, 
+  .featured-block, 
+  .featured-block-two-cols, 
+  .blog-block {
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+  }
+  .inside div .inside {
+    width: auto;
+  }
+}
+
+.aq-block-homeland_text_block label p {
+  margin-bottom: 0;
+}
+
+.aq-block-aq_column_block {
+  .post-col-4,
+  .post-col-8 {
+    width: 100%;
+  }
+}
+
+[class*="aq_span"] {
+  margin-left: 0 !important;
+}
+
+.aq-template-wrapper {
+  .aq_span4 {
+    width: 33.3333333% !important;
+  }
+  .aq_span8 {
+    width: 66.66666667% !important;
+  }
+}
+
+
+// bbPress
+#bbpress-forums {
+  h4 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  div.bbp-search-form {
+    background: #EEE;
+    padding: 15px;
+    float: none;
+    margin-bottom: 30px;
+  }
+  #bbp-search-form #bbp_search {
+    width: 79%;
+    padding: 6px;
+    border: 1px solid #CCC;
+  }
+}
+
+#bbp_search_submit {
+  background: $site-color;
+  color: $white;
+  cursor: pointer;
+  padding: 7px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 20%;
+}
+
+.widget #bbp_search_submit {
+  width: 100%;
+  padding: 10px 0;
+}
+
+#bbpress-forums li {
+  &.bbp-body ul {
+    &.forum, &.topic {
+      padding: 20px;
+    }
+  }
+  &.bbp-header, 
+  &.bbp-footer {
+    padding: 20px;
+  }
+}
+
+.forum-titles {
+  font-size: 16px;
+}
+
+a {
+  &.bbp-forum-title {
+    &:link, &:visited {
+      color: $site-color;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+  &.bbp-topic-permalink {
+    &:link, &:visited {
+      color: $site-color;
+      font-size: 18px;
+      font-weight: 500;
+    }
+  }
+  &.favorite-toggle,
+  &.subscription-toggle {
+    color: $site-color;
+  }
+}
+
+.bbp-topic-title h3, 
+.bbp-topic-title-meta, 
+.bbp-forum-title h3 {
+  a {
+    color: $site-color;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.bbp-topic-title-meta a {
+  font-size: 12px;
+}
+
+#bbpress-forums {
+  .bbp-forum-info .bbp-forum-content, p.bbp-topic-meta {
+    font-size: 12px;
+  }
+}
+
+.bbp-forum-freshness a {
+  &:link, &:visited {
+    color: $site-color;
+  }
+}
+
+.bbp-topic-freshness a {
+  &:link, &:visited {
+    color: $site-color;
+  }
+}
+
+.bbp-author-name {
+  &:link, &:visited {
+    color: $site-color;
+  }
+}
+
+.bbp-header {
+  border-bottom: 3px solid #CCC;
+}
+
+#bbpress-forums {
+  p.bbp-topic-meta {
+    margin: 0;
+  }
+  fieldset.bbp-form {
+    textarea, select, input {
+      border: 1px solid #CCC;
+    }
+    border: 1px solid #CCC;
+    legend {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}
+
+div {
+  &.bbp-submit-wrapper {
+    margin-top: 0;
+    margin-bottom: 20px;
+    float: left;
+  }
+}
+
+.bbp-submit-wrapper button, 
+#bbp_user_edit_submit {
+  background: $site-color;
+  color: $white;
+  border: 0;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.bbp-author-avatar {
+  position: relative;
+  top: 5px;
+}
+
+.bbp-reply-header a.bbp-reply-permalink {
+  float: none;
+}
+
+#bbpress-forums div.reply {
+  width: auto;
+}
+
+.bbp-author-name {
+  padding-top: 10px;
+  font-size: 11px;
+}
+
+#bbpress-forums div {
+  &.bbp-reply-content, 
+  &.bbp-search-content, 
+  &.bbp-search-author, 
+  &.bbp-topic-content {
+    margin-left: 145px;
+    font-size: 14px;
+  }
+  &.bbp-reply-author {
+    font-size: 14px;
+    width: 130px;
+  }
+}
+
+.bbp-breadcrumb {
+  margin-bottom: 20px;
+  p {
+    font-size: 14px;
+  }
+  a {
+    &:link, &:visited {
+      color: $site-color;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#bbpress-forums {
+  p.bbp-topic-meta img.avatar {
+    border: 0;
+    margin-top: 0;
+    position: relative;
+    top: 5px;
+  }
+  ul {
+    &.bbp-reply-revision-log img.avatar, 
+    &.bbp-topic-revision-log img.avatar {
+      border: 0;
+      margin-top: 0;
+      position: relative;
+      top: 5px;
+    }
+  }
+  div.bbp-template-notice img.avatar, 
+  .widget_display_topics img.avatar, 
+  .widget_display_replies img.avatar {
+    border: 0;
+    margin-top: 0;
+    position: relative;
+    top: 5px;
+  }
+  li.bbp-body ul.topic {
+    border: 0;
+  }
+}
+
+.bbp-reply-post-date {
+  font-size: 11px;
+}
+
+.bbp-topics-front ul.super-sticky, 
+.bbp-topics ul.super-sticky {
+  background: #f8f8c5 !important;
+}
+
+.widget_display_forums ul li a {
+  font-size: 12px !important;
+}
+
+.widget_display_topics ul li a {
+  font-size: 14px !important;
+}
+
+.widget_display_search input[type='text'] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.bbp_widget_login input {
+  &[type='text'], 
+  &[type='password'] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+}
+
+.widget_display_topics ul li div {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.bbp-meta a.bbp-topic-permalink {
+  &:link, &:visited {
+    font-size: 12px;
+  }
+}
+
+.bbp-topic-title h3, .bbp-topic-title-meta {
+  display: inline-block;
+}
+
+#bbp-search-results .bbp-forum-content {
+  margin-left: 0 !important;
+}
+
+.bbp-topic-header {
+  padding: 10px 20px !important;
+}
+
+.bbp-search-results {
+  .bbp-forum-header {
+    padding: 10px 20px !important;
+  }
+  .bbp-forum-content {
+    padding: 12px !important;
+  }
+}
+
+div.bbp-breadcrumb {
+  float: none;
+}
+
+#bbp-user-navigation {
+  li {
+    a {
+      &:hover {
+        color: $site-color;
+      }
+    }
+  }
+}
+
+.bbp-user-description {
+  font-size: 14px;
+}
+
+
+// Booking
+.bk_calendar_frame, 
+.wpdev-help-message.alert, 
+.input-xlarge {
+  width: 100% !important;
+}
+
+.datepick-inline {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.datepick-header span {
+  font-size: 20px !important;
+  text-transform: uppercase;
+}
+
+.datepick-inline {
+  .calendar-links {
+    padding: 20px 0 !important;
+    margin-bottom: -3.4em;
+  }
+  .datepick-header {
+    font-weight: 400 !important;
+    text-shadow: none !important;
+    padding: 0 !important;
+    margin-top: -10px !important;
+    color: $white !important;
+    letter-spacing: 2px;
+  }
+}
+
+.datepick {
+  margin-top: 21px !important;
+}
+
+div.datepick-inline .datepick-title-row th {
+  line-height: 40px !important;
+}
+
+.datepick-inline {
+  .datepick-title-row th, .datepick-days-cell {
+    font-size: 18px !important;
+  }
+  .calendar-links {
+    background: #217756 !important;
+    border-bottom: 0 !important;
+    .datepick-next {
+      padding-right: 2% !important;
+      width: 39% !important;
+    }
+    .datepick-prev {
+      padding-left: 2% !important;
+      width: 39% !important;
+    }
+    .datepick-next a, .datepick-prev a {
+      color: $white !important;
+    }
+  }
+}
+
+.block_hints {
+  .block_free, .block_time, .block_booked, .block_pending, .block_check_in_out {
+    padding: 20px 0 !important;
+  }
+}
+
+.datepick-inline {
+  .datepick-days-cell {
+    padding: 20px 0 !important;
+  }
+  .datepick {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+  }
+  .datepick-header {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    span {
+      font-size: 18px !important;
+      font-weight: 400 !important;
+    }
+  }
+  .calendar-links {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    a {
+      font-size: 18px !important;
+      font-weight: 400 !important;
+    }
+  }
+  .datepick-days-cell {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    a, div {
+      font-size: 18px !important;
+      font-weight: 400 !important;
+    }
+  }
+  .datepick-title-row {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    th {
+      font-size: 18px !important;
+      font-weight: 400 !important;
+    }
+  }
+}
+
+div.datepick-inline .datepick-title-row th {
+  border: 1px solid #63b75d !important;
+  background: #63b75d;
+  color: $white !important;
+}
+
+.wpdevbk {
+  input:focus, 
+  textarea:focus, 
+  input, textarea {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 8px !important;
+  }
+  label {
+    margin-bottom: 10px !important;
+  }
+  button.btn, 
+  input.btn[type="submit"] {
+    background: $site-color;
+    color: $white;
+    font-size: 14px !important;
+    font-weight: 700;
+    padding: 13px 30px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0 !important;
+    border: 0 !important;
+    text-transform: uppercase !important;
+  }
+}
+
+.booking_form_div {
+  textarea, 
+  input[type="text"] {
+    height: auto !important;
+    box-sizing: none !important;
+  }
+}
+
+.wpdevbk {
+  textarea {
+    height: 150px !important;
+  }
+  .alert {
+    padding: 6px 12px !important;
+  }
+}
+
+.sidebar {
+  .widget_wpdev_booking {
+    float: none !important;
+  }
+  .block_hints {
+    .block_free, .block_time, .block_booked, .block_pending, .block_check_in_out {
+      padding: 0 !important;
+    }
+  }
+  .datepick-inline .datepick-days-cell {
+    padding: 0 !important;
+  }
+}
+
+footer {
+  .block_hints {
+    .block_free, .block_time, .block_booked, .block_pending, .block_check_in_out {
+      padding: 4px 0 !important;
+    }
+  }
+  .datepick-inline .datepick-days-cell {
+    padding: 4px 0 !important;
+  }
+  .wpdevbk label {
+    color: $white;
+  }
+}
+
+.widget_wpdev_booking {
+  margin: 0;
+  float: none;
+}
+
+.widget_bookingwidget .widget_wpdev_booking .bk_calendar_frame {
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.booking_form_div {
+  select, 
+  textarea, 
+  input[type="text"] {
+    box-sizing: border-box !important;
+  }
+}
+
+.wpcf7-submit {
+  width: auto;
+}
+
+.quicktags-toolbar,
+.bbp-topic-form,
+.bbp-reply-form {
+  input {
+    width: auto;
+  }
+}

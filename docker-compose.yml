@@ -1,5 +1,17 @@
 version: '3.7'
 services:
+  db:
+    image: mariadb:latest
+    container_name: www-mariadb
+    volumes:
+      - ./wordpress_db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: senhadoroot_dobancodedados
+      MYSQL_DATABASE: nome_dobancodedados
+      MYSQL_USER: usuario_dobancodedados
+      MYSQL_PASSWORD: senha_dobandodedados
+
   wordpress:
     depends_on:
       - db
@@ -16,18 +28,6 @@ services:
       WORDPRESS_DB_NAME: nome_dobancodedados
       WORDPRESS_DB_USER: usuario_dobancodedados
       WORDPRESS_DB_PASSWORD: senha_dobandodedados
-
-  db:
-    image: mariadb:latest
-    container_name: www-mariadb
-    volumes:
-      - ./wordpress_db_data:/var/lib/mysql
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: senhadoroot_dobancodedados
-      MYSQL_DATABASE: nome_dobancodedados
-      MYSQL_USER: usuario_dobancodedados
-      MYSQL_PASSWORD: senha_dobandodedados
       
   phpmyadmin:
     depends_on:
